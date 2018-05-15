@@ -4,13 +4,15 @@ body {
     background: black;
 }
 
+
+
 .ok {
     background: url('../img/food-3098719_1920.jpg');
     background-size: contain;
     background-position: ;
     background-repeat: no-repeat;
     height: 500px;
-    width: 5px;
+    width: 100%;
     text-align: left;
 
     padding: ;
@@ -23,7 +25,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     height: 500px;
-    width: 10%;
+    width: 100%;
 }
 
 .patte {
@@ -112,6 +114,8 @@ body {
     color: goldenrod;
 }
 
+
+
 /*PAGE-MENU*/
 
 h2 {
@@ -158,7 +162,7 @@ h2 {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    border-bottom: 1px solid;
+    /*    border-bottom: 1px solid;*/
     /*    border-right: 1px solid;*/
     border-radius: 6px;
 }
@@ -238,14 +242,15 @@ h2 {
 
 .contact-section {
     padding-top: 40px;
+    
 }
 
 .contact-section .col-md-6 {
-    width: 50%;
+    width: 100%;
 }
 
 .form-line {
-    border-right: 1px solid #B29999;
+/*    border-right: 1px solid #B29999;*/
 }
 
 .form-group {
@@ -320,6 +325,7 @@ footer {
     /*    margin: 15px 0 10px 0;*/
     color: ;
     padding: 30px 0 20px 0;
+    width: 100%;
 }
 
 footer a {
@@ -332,4 +338,8 @@ footer a:hover {
 
 footer a:active {
     color: red;
+}
+
+.black {
+    background: white;
 }
