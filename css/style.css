@@ -242,7 +242,7 @@ h2 {
 
 .contact-section {
     padding-top: 40px;
-    
+
 }
 
 .contact-section .col-md-6 {
@@ -250,7 +250,7 @@ h2 {
 }
 
 .form-line {
-/*    border-right: 1px solid #B29999;*/
+    /*    border-right: 1px solid #B29999;*/
 }
 
 .form-group {
@@ -300,6 +300,7 @@ textarea.form-control {
     background-repeat: no-repeat;
     height: 500px;
     width: 100%;
+    
 }
 
 .about-img {
@@ -345,20 +346,42 @@ footer img {
 }
 
 .black {
-  background: transparent!important;
-  color: white;
-  transition: 1s;
+    background: transparent!important;
+    color: white;
+    transition: 1s;
 }
-.black li a.nav-item, .black li a.nav-link{
-  color: white!important;
+
+.black li a.nav-item,
+.black li a.nav-link {
+    color: white!important;
 }
-.navbar-dark{
-  transition: 1s;
+
+.navbar-dark {
+    transition: 1s;
 }
 
 
 
-.logo{
+.logo {
     width: 150px;
-    
+
+}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 768px) {
+    .black {
+        background: black!important;
+        color: white;
+
+    }
+    .black li a.nav-item,
+    .black li a.nav-link {
+        color: white!important;
+    }
+    .navbar-toggler{
+        background:dimgrey ;
+    }
+     
 }
