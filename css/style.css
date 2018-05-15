@@ -324,7 +324,6 @@ footer {
     background: ;
     /*    margin: 15px 0 10px 0;*/
     color: ;
-    padding: 30px 0 20px 0;
     width: 100%;
 }
 
@@ -340,6 +339,25 @@ footer a:active {
     color: red;
 }
 
+footer img {
+    width: 150px;
+}
+
 .black {
-    background: white;
+  background: transparent!important;
+  color: white;
+  transition: 1s;
+}
+.black li a.nav-item, .black li a.nav-link{
+  color: white!important;
+}
+.navbar-dark{
+  transition: 1s;
+}
+
+
+
+.logo{
+    width: 150px;
+    
 }
